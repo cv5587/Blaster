@@ -30,4 +30,10 @@ private:
 
 	UPROPERTY( BlueprintReadOnly, Category = Character, meta = (AllowPrivateAccess = "true"))
 	bool bIsAccelerating;//가속
+
+	UPROPERTY(BlueprintReadOnly, Category = Character, meta = (AllowPrivateAccess = "true"))
+	bool bWeaponEquipped;//무기가 장창 되었는지 알려주는 변수
+
+	UPROPERTY(BlueprintReadOnly, Category = Character, meta = (AllowPrivateAccess = "true"))
+	bool bIsCrouched;//무기가 장창 되었는지 알려주는 변수
 };
