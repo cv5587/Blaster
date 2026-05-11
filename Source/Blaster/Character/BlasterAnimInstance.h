@@ -35,5 +35,8 @@ private:
 	bool bWeaponEquipped;//무기가 장창 되었는지 알려주는 변수
 
 	UPROPERTY(BlueprintReadOnly, Category = Character, meta = (AllowPrivateAccess = "true"))
-	bool bIsCrouched;//무기가 장창 되었는지 알려주는 변수
+	bool bIsCrouched;
+
+	UPROPERTY(BlueprintReadOnly, Category = Character, meta = (AllowPrivateAccess = "true"))
+	bool bAiming;
 };
